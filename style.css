@@ -14,3 +14,26 @@ body {
     padding-bottom: 5px;
   }
   
+  #description p::first-letter {
+    font-size: 2em;
+  }
+
+  #description {
+    color: firebrick;
+  }
+
+  a {
+    color: darkviolet;
+    text-decoration: underline;
+  }
+
+  .highlight-box {
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
